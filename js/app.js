@@ -35,6 +35,10 @@ C.  Booleans
 
 D. The Farm
 
+1.  let animal = 'cow'
+2.  if (animal === 'cow') {console.log('mooooo')}
+3.  else {console.log('Hey! You're not a cow.')}
+
 
 
 */

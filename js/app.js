@@ -168,5 +168,13 @@ H.  What's in Your Closet
         + ", and " + thomsCloset[2] [0] + "!")
 8.  thomsCloset[1] [2] = "Footie Pajamas";
 
+IV. Functions.
+A.  Print Greeting.
+
+    function printGreeting(name) {
+        console.log(`Hello there, ${name} !`)
+    }
+
+    
 
 */

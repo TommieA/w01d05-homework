@@ -145,7 +145,7 @@ F.  Biggie Smalls
         console.log("Big number")
     }
 
-G.  Minkey in the Middle
+G.  Monkey in the Middle
 
     let int = 3;
     if(int < 5) {
@@ -153,5 +153,20 @@ G.  Minkey in the Middle
     } else if (int > 10) {
         console.log("Big number")
     } else console.log("monkey")
+
+H.  What's in Your Closet
+
+1.  Console.log("Kristyn is rocking that " + 
+                KristynsCloset[2] + " today")
+2.  KristynsCloset.splice(5,0,"Raybans");
+3.  KristynsCloset[6] = "Stained Knit Hat";
+4.  thomsCloset[0] [0]];
+5.  thomsCloste[1] [0];
+6.  thomsCloset[2] [1];
+7.  console.log("Thom's looking fierce in a " +
+        thomsCloset[0][2] + ", " + thomsCloset[1] [2]
+        + ", and " + thomsCloset[2] [0] + "!")
+8.  thomsCloset[1] [2] = "Footie Pajamas";
+
 
 */

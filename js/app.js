@@ -127,4 +127,15 @@ D.  Change Values
 2.  ourClass[4] = 'Octicat';
 3.  ourClass.push("Cloud City");
 
+E.  Mix It Up
+
+1.  myArray.push("Egon", "My Choice");
+2.  myArray.shift();
+3.  myArray.unshift("Bob Marley");
+4.  myArrat.pop();
+5.  Got an error until Itookout the .prototype,then
+    it reversed the array, mutate changes a constant.
+
+    
+
 */

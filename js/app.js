@@ -209,4 +209,24 @@ E.  getTwoLengths
         return result;
     }
 
+F.  getMultipleLengths
+
+    function getMultipleLengths(str) {
+        let arr = [];
+        let currentWord = "";
+        for(let i = 0; i < str.length; i++) {
+            if(str[i] === " ") {
+                arr.push(currentWord);
+                currentWord = ""
+            } else {
+                currentWord += str[i];
+            };
+        };
+        arr.push(currentWord);
+        for(let x = 0; x < arr.length; x++) {
+            arr[x] = arr[x].length;
+        };
+        console.log(arr);
+    };
+
 */

@@ -39,6 +39,10 @@ D. The Farm
 2.  if (animal === 'cow') {console.log('mooooo')}
 3.  else {console.log('Hey! You're not a cow.')}
 
+E.  Driver's Ed
 
+1.  let ageHold = 0
+2.  if (ageHold >= 16) {console.log("Here are the keys" )
+3.  } else {"Sorry, you're too young"}
 
 */

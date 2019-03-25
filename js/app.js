@@ -187,6 +187,17 @@ C.  calculateCube
         console.log(Math.pow(sides, 3));
     }
 
+D.  isVowel
 
+    function isVowel(char) {
+        let vowels = ['A', 'E', 'I', 'O', 'U'];
+        for(i = 0; i < vowels.length; i++) {
+                let uChar = char.toUpperCase();
+                if (uChar == vowels[i]) {
+                    return true;
+                }
+        }
+        return false;
+    }
 
 */

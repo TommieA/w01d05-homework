@@ -79,5 +79,16 @@ C.  Give me Five
         };
     };
 
+D.  Savings account
+
+    let bank_account = 0;
+    for(let i = 1; i <= 10; i++) {
+        bank_account += i;
+    }
+
+    let bank_account = 0;
+    for(let i = 1; i <= 100; i++) {
+        (bank_account += i) * 2;
+    }
 
 */

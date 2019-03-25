@@ -121,4 +121,10 @@ C.  Accessing Elements
 2.  randomThings[2] = 'World';
 3.  It does.
 
+D.  Change Values
+
+1.  ourClass[2];
+2.  ourClass[4] = 'Octicat';
+3.  ourClass.push("Cloud City");
+
 */

@@ -46,7 +46,7 @@ E.  Driver's Ed
 3.  } else {"Sorry, you're too young"}
 
 II Loops.
-a.  The Basics
+A.  The Basics
 
 1.  for(i = 0; i <= 10; i++) {
         console.log(i);
@@ -60,6 +60,12 @@ a.  The Basics
         }
     }
 
-     
+ B. Get Even
+ 
+ 1. for(i = 1; i <= 100; i++) {
+        if(i % 2 === 0) {
+            console.log(i + ' <== is an even number');
+        }
+    }
 
 */

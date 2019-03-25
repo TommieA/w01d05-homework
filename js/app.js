@@ -172,9 +172,13 @@ IV. Functions.
 A.  Print Greeting.
 
     function printGreeting(name) {
-        console.log(`Hello there, ${name} !`)
+        console.log(`Hello there, ${name} !`);
     }
 
-    
+B.  calculateCube
+
+    function calculateCube(sides) {
+        console.log(Math.pow(sides, 3));
+    }
 
 */

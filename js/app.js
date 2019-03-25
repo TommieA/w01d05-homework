@@ -175,10 +175,18 @@ A.  Print Greeting.
         console.log(`Hello there, ${name} !`);
     }
 
-B.  calculateCube
+B.  printCool
+
+    function printCool(name) {
+        console.log(name + " is Cool!");
+    }
+
+C.  calculateCube
 
     function calculateCube(sides) {
         console.log(Math.pow(sides, 3));
     }
+
+
 
 */

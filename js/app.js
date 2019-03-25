@@ -115,6 +115,10 @@ B.  Easy does it
                     "I'm not dead yet!", 
                     "tis but a flesh wound!"]
 
+C.  Accessing Elements
 
-                    
+1.  randomThings[0];
+2.  randomThings[2] = 'World';
+3.  It does.
+
 */

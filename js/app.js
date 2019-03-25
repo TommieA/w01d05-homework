@@ -229,4 +229,17 @@ F.  getMultipleLengths
         console.log(arr);
     };
 
+G.  maxOfThree
 */
+    function maxOfThree(arr) {
+        let largest = 0;
+        for(let i = 0; i < arr.length; i++){
+            if (arr[i] > largest){
+                largest = arr[i];
+            };
+        };
+        return largest;
+    };
+
+maxOfThree([34,56,2]);
+

@@ -195,9 +195,18 @@ D.  isVowel
                 let uChar = char.toUpperCase();
                 if (uChar == vowels[i]) {
                     return true;
-                }
-        }
+                };
+        };
         return false;
+    };
+
+E.  getTwoLengths
+
+    function getTwoLengths(str1, str2) {
+        let result = [];
+        result.push(str1.length);
+        result.push(str2.length);
+        return result;
     }
 
 */

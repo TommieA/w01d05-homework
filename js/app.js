@@ -136,6 +136,14 @@ E.  Mix It Up
 5.  Got an error until Itookout the .prototype,then
     it reversed the array, mutate changes a constant.
 
-    
+F.  Biggie Smalls
+
+    let int = 3;
+    if(int < 100) {
+        console.log("Little number")
+    } else {
+        console.log("Big number")
+    }
+
 
 */

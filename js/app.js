@@ -102,5 +102,19 @@ E.  Multiples of 3 and 5
         console.log(total);
     }
     
+III.    Arrays and Control Flow
+A.      Talk about it
 
+1.  Elements
+2.  The order they were put into thearray
+3.  Food in the refrigerator
+
+B.  Easy does it
+
+    const quotes = ["We don't need no stinking badges",
+                    "I'm not dead yet!", 
+                    "tis but a flesh wound!"]
+
+
+                    
 */

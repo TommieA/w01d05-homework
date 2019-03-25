@@ -145,5 +145,13 @@ F.  Biggie Smalls
         console.log("Big number")
     }
 
+G.  Minkey in the Middle
+
+    let int = 3;
+    if(int < 5) {
+        console.log("Little number")
+    } else if (int > 10) {
+        console.log("Big number")
+    } else console.log("monkey")
 
 */

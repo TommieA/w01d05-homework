@@ -45,4 +45,21 @@ E.  Driver's Ed
 2.  if (ageHold >= 16) {console.log("Here are the keys" )
 3.  } else {"Sorry, you're too young"}
 
+II Loops.
+a.  The Basics
+
+1.  for(i = 0; i <= 10; i++) {
+        console.log(i);
+    }
+2.  for(i = 10; i <= 400; i++) {
+        console.log(i);
+    }
+3.  for(i = 12; i <= 4000; i++) {
+        if (i % 3 === 0) {
+            console.log(i);
+        }
+    }
+
+     
+
 */

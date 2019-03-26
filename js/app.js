@@ -257,12 +257,32 @@ H.  printLongestWord;
 
     console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
 
-J.  transmogrify
-
-*/
+I.  transmogrify
     
     function transmorgify(num1, num2, num3) {
-        let tNum = Math.pow((num1 * num2),num3) ;
+        let tNum = Math.pow((num1 * num2),num3);
     };
 
     console.log(transmorgify(5, 3, 2));
+
+J.  reverseWordOrder
+*/
+    function reverseWordOrder(str) {
+        let wordArr = [];
+        let revWord = "";
+        let currentWord = "";
+        for(let i = 0; i < str.length ; i++) {
+                if(str[i] === " ") {
+                    wordArr.unshift(currentWord);
+                    currentWord = "";
+                } else {
+                    currentWord = currentWord + str[i];
+                };    
+        };
+        wordArr.unshift(currentWord);
+        revWord = wordArr.join(" ");
+        return revWord;
+    };
+    
+    reverseWordOrder("Four score and seven years ago");
+        

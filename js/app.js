@@ -245,8 +245,6 @@ maxOfThree([34,56,2]);
 
 H.  printLongestWord;
 
-*/
-
     function printLongestWord(arr){
         let longestWord = "";
         for(let i = 0; i < arr.length; i++){
@@ -259,4 +257,12 @@ H.  printLongestWord;
 
     console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
 
+J.  transmogrify
 
+*/
+    
+    function transmorgify(num1, num2, num3) {
+        let tNum = Math.pow((num1 * num2),num3) ;
+    };
+
+    console.log(transmorgify(5, 3, 2));

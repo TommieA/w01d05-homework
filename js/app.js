@@ -310,7 +310,7 @@ K.  Math Random
         let rNum = (Math.random() * 10) + 1;
         return rNum;
     };
-    return rNumber();
+    return rNumber()
 5.
  
     const quotes = ["Badges? We don't need no stinking badges!",
@@ -326,8 +326,10 @@ K.  Math Random
     };
 
     return getRandomElement();
-
+    a little siuck on this.... Taking a break....
+    
 Objects
 1.
 */
-    let user = {name:"Me", email:"me@email.com", age:35, purchases:[]};
+    let user = {name:"Me", email:"me@email.com", age:35, purchaseS:[]};
+

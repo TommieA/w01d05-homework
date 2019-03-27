@@ -312,7 +312,7 @@ K.  Math Random
     };
     return rNumber()
 5.
- */
+ 
     const quotes = ["Badges? We don't need no stinking badges!",
                     "I'm not dead yet!", 
                     "tis but a flesh wound!"]
@@ -326,11 +326,11 @@ K.  Math Random
     };
 
     return getRandomElement();
-//    a little siuck on this.... Taking a break....
-/*
+
+
 Objects
 1.
-
+*/
     let user = {name:"Me", email:"me@email.com", age:35, purchases:[]};
 
     user.email = "New.address@email.com";
@@ -348,5 +348,8 @@ Objects
 
     user.friend["location"] = "Lakewood";
 
-
-
+    user.friend.age = 55;
+    user.friend["purchased"] = [];
+    user.friend.purchased.push("The One Ring");
+    user.friend.purchased.push("A latte");
+    console.log(user.friend.purchased[user.friend.purchased.length -1]);

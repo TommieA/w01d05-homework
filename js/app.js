@@ -312,7 +312,7 @@ K.  Math Random
     };
     return rNumber()
 5.
- 
+ */
     const quotes = ["Badges? We don't need no stinking badges!",
                     "I'm not dead yet!", 
                     "tis but a flesh wound!"]
@@ -320,27 +320,33 @@ K.  Math Random
     quotes.push("You'll never know how far you can go unless you risk going too far",
                 "History favors the Bold");
 
-    function getRandomElement([quotes]) {
+    function getRandomElement() {
         let i = [Math.floor(Math.random() * quotes.length)];
         return quotes[i];
     };
 
     return getRandomElement();
-    a little siuck on this.... Taking a break....
-
+//    a little siuck on this.... Taking a break....
+/*
 Objects
 1.
-*/
+
     let user = {name:"Me", email:"me@email.com", age:35, purchases:[]};
 
     user.email = "New.address@email.com";
-    user.age++
-    user[location] = "Northglenn";
+    user.age++;
+    user["location"] = "Northglenn";
 
     user.purchases.push("carbohydrates")
     user.purchases.push("Piece of Mind");
     user.purchases.push("Merino jodhpurs");
-    console.log(user.purchases[user.purchases.length - 1]);
+
+    user.friend = {
+        name: "Brian Taylor",
+        age: 47
+    };
+
+    user.friend["location"] = "Lakewood";
 
 
 

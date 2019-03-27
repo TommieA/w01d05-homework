@@ -331,10 +331,16 @@ K.  Math Random
 Objects
 1.
 */
-    let user = {name:"Me", email:"me@email.com", age:35, purchaseS:[]};
+    let user = {name:"Me", email:"me@email.com", age:35, purchases:[]};
 
     user.email = "New.address@email.com";
     user.age++
     user[location] = "Northglenn";
-    
+
+    user.purchases.push("carbohydrates")
+    user.purchases.push("Piece of Mind");
+    user.purchases.push("Merino jodhpurs");
+    console.log(user.purchases[user.purchases.length - 1]);
+
+
 

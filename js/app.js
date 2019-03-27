@@ -327,9 +327,12 @@ K.  Math Random
 
     return getRandomElement();
     a little siuck on this.... Taking a break....
-    
+
 Objects
 1.
 */
     let user = {name:"Me", email:"me@email.com", age:35, purchaseS:[]};
+
+    user.email = "New.address@email.com";
+    user.age++
 

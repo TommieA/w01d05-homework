@@ -111,7 +111,7 @@ A.      Talk about it
 
 B.  Easy does it
 
-    const quotes = ["We don't need no stinking badges",
+    const quotes = ["Badges? We don't need no stinking badges!",
                     "I'm not dead yet!", 
                     "tis but a flesh wound!"]
 
@@ -266,7 +266,7 @@ I.  transmogrify
     console.log(transmorgify(5, 3, 2));
 
 J.  reverseWordOrder
-*/
+
     function reverseWordOrder(str) {
         let wordArr = [];
         let revWord = "";
@@ -285,4 +285,49 @@ J.  reverseWordOrder
     };
     
     reverseWordOrder("Four score and seven years ago");
-        
+   
+K.  Math Random
+1.
+    function rNumber() {
+        let rNum = Math.floor((Math.random() * 10) + 1);
+        return rNum;
+    }
+    return rNumber();
+2.
+    function rNumber() {
+       let rNum = Math.floor(Math.random() * (10 + 100)) + 10;
+       return rNum;
+    }
+    return rNumber();  
+3.
+    function rNumber() {
+      let rNum = Math.floor(Math.random() * (532 + 13267)) + 10;
+      return rNum;
+    }
+    return rNumber(); 
+4.
+    function rNumber() {
+        let rNum = (Math.random() * 10) + 1;
+        return rNum;
+    };
+    return rNumber();
+5.
+ 
+    const quotes = ["Badges? We don't need no stinking badges!",
+                    "I'm not dead yet!", 
+                    "tis but a flesh wound!"]
+
+    quotes.push("You'll never know how far you can go unless you risk going too far",
+                "History favors the Bold");
+
+    function getRandomElement([quotes]) {
+        let i = [Math.floor(Math.random() * quotes.length)];
+        return quotes[i];
+    };
+
+    return getRandomElement();
+
+Objects
+1.
+*/
+    let user = {name:"Me", email:"me@email.com", age:35, purchases:[]};

@@ -335,4 +335,6 @@ Objects
 
     user.email = "New.address@email.com";
     user.age++
+    user[location] = "Northglenn";
+    
 

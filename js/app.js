@@ -353,3 +353,11 @@ Objects
     user.friend.purchased.push("The One Ring");
     user.friend.purchased.push("A latte");
     console.log(user.friend.purchased[user.friend.purchased.length -1]);
+
+    for(i =0; i < user.purchases.length; i++) {
+        console.log(user.purchases[i]);
+    };
+
+    for(i = 0; i < user.friend.purchased.length; i++) {
+        console.log(user.friend.purchased[i]);
+    };

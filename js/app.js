@@ -361,3 +361,15 @@ Objects
     for(i = 0; i < user.friend.purchased.length; i++) {
         console.log(user.friend.purchased[i]);
     };
+
+    function updateUser() {
+        user.age++;
+        user.name = user.name.toUpperCase();
+    };
+    updateUser();
+
+    function oldAndLoud(person) {
+        person.age++;
+    };
+    oldAndLoud(user);
+    
